@@ -113,17 +113,8 @@
         </tr>
       </thead>
       <tbody class="table-group-divider">
-        <tr>
-          <th scope="row">
-            <button
-              type="button"
-              class="btn"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              style="padding: 0%;margin-left: 0%;"            >
-            Wallet
-            </button>
-          </th>
+
+      
 
           <!-- Modal Wallet Click -->
           <div
@@ -172,14 +163,28 @@
               </div>
             </div>
           </div>
-         
+
+           <!--Wallet 1  Buttons-->
+        <tr>
+          <th scope="row">
+            <button
+              type="button"
+              class="btn"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              style="padding: 0%;margin-left: 0%;"            >
+            Wallet
+            </button>
+          </th>
           <td>Mark</td>
           <td>Otto</td>
           <td>@mdo</td>
           <td>BTC</td> 
         </tr>
+
+        <!--Wallet 2  Buttons-->
         <tr>
-          <!--Wallet  Buttons-->
+          
           <th scope="row">
             <button
               type="button"
@@ -195,6 +200,8 @@
           <td>@fat</td>
           <td>ETH</td>
         </tr>
+        
+         <!--Wallet 3  Buttons-->
         <tr>
          <th scope="row">
             <button
@@ -257,13 +264,12 @@
       const toastLiveExample = document.getElementById('liveToast')
 
     if (toastTrigger) {
-     const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
-     toastTrigger.addEventListener(  'click', () => {
+  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+  toastTrigger.addEventListener(  'click', () => {
     toastBootstrap.show()
   })
 }
     </script>
-
 
   </body>
 </html>
