@@ -29,19 +29,19 @@
 
 
 
-  <!--Last Transiction Button-Modal-->
-  <button type="button" class="btn btn-outline-secondary" id="liveToastBtn">Show Me Last Transiction</button>
+  <!--Last Transaction Button-Modal-->
+  <button type="button" class="btn btn-outline-secondary" id="liveToastBtn">Show Me Last Transaction</button>
 
 <div class="toast-container position-fixed bottom-0 end-0 p-3">
   <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
       <span class="material-symbols-outlined">swap_vert</span>
-      <strong class="me-auto">Transictions</strong>
+      <strong class="me-auto">Transactions</strong>
       <small>11 mins ago</small>
       <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
     <div class="toast-body">
-      The last transiction is ....
+      The last transaction is ....
     </div>
   </div>
 </div>
@@ -99,7 +99,6 @@
     </div>
   </div>
 </div>
-
 <!--Main Table-->
   <body data-bs-theme="dark">
     <table class="table">
@@ -113,8 +112,6 @@
         </tr>
       </thead>
       <tbody class="table-group-divider">
-
-      
 
           <!-- Modal Wallet Click -->
           <div
@@ -163,7 +160,6 @@
               </div>
             </div>
           </div>
-
            <!--Wallet 1  Buttons-->
         <tr>
           <th scope="row">
@@ -181,7 +177,6 @@
           <td>@mdo</td>
           <td>BTC</td> 
         </tr>
-
         <!--Wallet 2  Buttons-->
         <tr>
           
@@ -200,7 +195,7 @@
           <td>@fat</td>
           <td>ETH</td>
         </tr>
-        
+
          <!--Wallet 3  Buttons-->
         <tr>
          <th scope="row">
@@ -220,8 +215,6 @@
         </tr>
       </tbody>
     </table>
-
-
    <!--Total Wallet-->
 
     <div class="d-flex justify-content-end"><p class="text-body-secondary">
@@ -229,9 +222,6 @@
         Total Wallet Balance : 23944
       </div>
     </p></div>
-    
-  
-      
     </div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -258,7 +248,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <!--Show Transiction JavaScript -->
+    <!--Show Transaction JavaScript -->
     <script>
       const toastTrigger = document.getElementById('liveToastBtn')
       const toastLiveExample = document.getElementById('liveToast')
